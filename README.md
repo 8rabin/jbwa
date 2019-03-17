@@ -1,2 +1,2 @@
 # 8values.github.io
-The 8values Political Quiz measures individuals' political values, including Equality, Might, Liberty, Tradition, Wealth, Peace, Authority, and Progress.
+8sekcji (ta nazwa nie ma kurwa żadnego sensu xD) to test mający na celu ujawnienie Twojego sposobu adminowania. Skierowany jest głównie do administratorów sekcji "Jak będzie w akapie?", ale poza osią elitarystyczną każdy może go zrobić.

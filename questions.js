@@ -9,7 +9,7 @@ questions = [
         }
     },
     {
-        "question": "Kolekcjonuję rangi na sekcjach.",
+        "question": "Kolekcjonujesz rangi na sekcjach.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -18,10 +18,10 @@ questions = [
         }
     },
     {
-        "question": "Nie podoba mi się obecność moich znajomych (spoza trollnetu) na sekcjach.",
+        "question": "Nie podoba ci się obecność znajomych (spoza trollnetu) na sekcjach.",
         "effect": {
             "econ": 10,
-            "dipl": 20,
+            "dipl": -20,
             "govt": 5,
             "scty": 0
         }
@@ -39,7 +39,7 @@ questions = [
         "question": "Większość ludzi zapomniała o czterech aksjomatach.",
         "effect": {
             "econ": 2,
-            "dipl": 20,
+            "dipl": -20,
             "govt": 0,
             "scty": 0
         }
@@ -48,7 +48,7 @@ questions = [
         "question": "Sekcje nie powinny rosnąć zbyt szybko, ponieważ przewaga nowych członków odrywa grupę od trollnetu",
         "effect": {
             "econ": 0,
-            "dipl": 20,
+            "dipl": -20,
             "govt": 0,
             "scty": 0
         }
@@ -57,7 +57,7 @@ questions = [
         "question": "Na wejściu do grupy powinny być zadawane pytania takie jak 'Czy wiesz co to znaczy OP, inb4, tk?'",
         "effect": {
             "econ": 0,
-            "dipl": 20,
+            "dipl": -20,
             "govt": 0,
             "scty": 0
         }
@@ -66,9 +66,9 @@ questions = [
         "question": "Rozłamy sekcji to nonsens.",
         "effect": {
             "econ": -10,
-            "dipl": 10,
+            "dipl": -10,
             "govt": 0,
-            "scty": 10
+            "scty": -10
         }
     },
     {
@@ -90,7 +90,7 @@ questions = [
         }
     },
     {
-        "question": "Bardzo rzadko banuję członków, częściej ich wywalam lub wyciszam.",
+        "question": "Bardzo rzadko banujesz członków, częściej ich wyrzucasz lub wyciszasz.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -120,18 +120,18 @@ questions = [
         "question": "Sekcje z reguły powinny być ustawione na zamknięte, a nie tajne.",
         "effect": {
             "econ": 0,
-            "dipl": -5,
+            "dipl": 5,
             "govt": 0,
             "scty": 0
         }
     },
     {
-        "question": "Najwięksi administratorowie społeczności JBwA powinni zmówić się i wprowadzić licencję na tworzenie sekcji, ustalając sankcje dla niestosujących się.",
+        "question": "Administratorowie społeczności JBwA powinni wspólnie wprowadzić licencję na tworzenie sekcji, sankcjonując tworzenie grup bez zezwolenia.",
         "effect": {
             "econ": 10,
-            "dipl": 0,
+            "dipl": -5,
             "govt": 10,
-            "scty": 30
+            "scty": -30
         }
     },
     {
@@ -153,11 +153,11 @@ questions = [
         }
     },
     {
-        "question": "Admin ma zawsze rację. Zaznacz 'Zgadzam się', jeśli odznaka obok komentarza tylko podświadomie czyni jego zdanie bardziej podpartym.",
+        "question": "Admin ma zawsze rację.",
         "effect": {
             "econ": 5,
             "dipl": 0,
-            "govt": 10,
+            "govt": 15,
             "scty": 0
         }
     },

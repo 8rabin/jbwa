@@ -155,9 +155,18 @@ questions = [
     {
         "question": "Admin ma zawsze rację.",
         "effect": {
-            "econ": -5,
+            "econ": 5,
             "dipl": 0,
-            "govt": -10,
+            "govt": 10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Odznaka administratora u komentującego podświadomie sprawia wrażenie interwencji siły wyższej.",
+        "effect": {
+            "econ": 5,
+            "dipl": 0,
+            "govt": 15,
             "scty": 0
         }
     }

@@ -151,5 +151,14 @@ questions = [
             "govt": -10,
             "scty": 0
         }
+    },
+    {
+        "question": "Admin ma zawsze rację.",
+        "effect": {
+            "econ": -5,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0
+        }
     }
 ];

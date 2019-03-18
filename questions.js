@@ -18,7 +18,7 @@ questions = [
         }
     },
     {
-        "question": "Nie podoba mi się obecność moich znajomych na jebawce.",
+        "question": "Nie podoba mi się obecność moich znajomych (spoza trollnetu) na sekcjach.",
         "effect": {
             "econ": 10,
             "dipl": 20,

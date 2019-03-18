@@ -18,7 +18,7 @@ questions = [
         }
     },
     {
-        "question": "Nie podoba mi się obecność moich znajomych spoza trollnetu na jebawce.",
+        "question": "Nie podoba mi się obecność moich znajomych na jebawce.",
         "effect": {
             "econ": 10,
             "dipl": 20,
@@ -90,7 +90,7 @@ questions = [
         }
     },
     {
-        "question": "Bardzo rzadko banuję członków, jak już to raczej leci kick/mute.",
+        "question": "Bardzo rzadko banuję członków, częściej ich wywalam lub wyciszam.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -117,7 +117,7 @@ questions = [
         }
     },
     {
-        "question": "Sekcje jebawki z reguły powinny być ustawione na zamknięte, a nie tajne.",
+        "question": "Sekcje z reguły powinny być ustawione na zamknięte, a nie tajne.",
         "effect": {
             "econ": 0,
             "dipl": -5,
@@ -126,7 +126,7 @@ questions = [
         }
     },
     {
-        "question": "Najwięksi administratorowie jebawki powinni zmówić się i wprowadzić licencję na tworzenie sekcji, pod groźbą multibanów.",
+        "question": "Najwięksi administratorowie społeczności JBwA powinni zmówić się i wprowadzić licencję na tworzenie sekcji, ustalając sankcje dla niestosujących się.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -153,7 +153,7 @@ questions = [
         }
     },
     {
-        "question": "Admin ma zawsze rację.",
+        "question": "Admin ma zawsze rację. Zaznacz 'Zgadzam się', jeśli odznaka obok komentarza tylko podświadomie czyni jego zdanie bardziej podpartym.",
         "effect": {
             "econ": 5,
             "dipl": 0,
@@ -162,11 +162,11 @@ questions = [
         }
     },
     {
-        "question": "Odznaka administratora obok komentarza podświadomie wywołuje wrażenie interwencji siły wyższej.",
+        "question": "Sekcje takie jak Filmawka i Jepiwka urosły do rangi profesjonalnych społeczności.",
         "effect": {
-            "econ": 5,
-            "dipl": 0,
-            "govt": 15,
+            "econ": 10,
+            "dipl": -5,
+            "govt": 0,
             "scty": 0
         }
     }

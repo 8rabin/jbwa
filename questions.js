@@ -1,6 +1,6 @@
 questions = [
     {
-        "question": "Lubię kolekcjonować rangi na sekcjach.",
+        "question": "Prawdziwa sekcja zaczyna się od 5000 członków ('Zdecydowanie zgadzam się'). Zaznacz 'Zgadzam' się, jeśli od 2000.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -9,11 +9,11 @@ questions = [
         }
     },
     {
-        "question": "Byłem gnębiony w szkole. UWAGA: ta opcja zepsuje twój wynik, zaznacz 'Nie jestem pewien'",
+        "question": "Kolekcjonuję rangi na sekcjach.",
         "effect": {
-            "econ": 2137,
+            "econ": 10,
             "dipl": 0,
-            "govt": 476,
+            "govt": 0,
             "scty": 0
         }
     },

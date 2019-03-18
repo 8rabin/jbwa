@@ -36,7 +36,7 @@ questions = [
         }
     },
     {
-        "question": "Ludzie zapomnieli o czterech aksjomatach.",
+        "question": "Większość ludzi zapomniała o czterech aksjomatach.",
         "effect": {
             "econ": 2,
             "dipl": 20,
@@ -135,7 +135,7 @@ questions = [
         }
     },
     {
-        "question": "Multibany to rak, jeśli podpadło się tylko na jednej sekcji.",
+        "question": "Multibany to rak.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -162,7 +162,7 @@ questions = [
         }
     },
     {
-        "question": "Odznaka administratora u komentującego podświadomie sprawia wrażenie interwencji siły wyższej.",
+        "question": "Odznaka administratora obok komentarza podświadomie wywołuje wrażenie interwencji siły wyższej.",
         "effect": {
             "econ": 5,
             "dipl": 0,

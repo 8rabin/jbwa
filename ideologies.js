@@ -466,7 +466,7 @@ ideologies = [
             "govt": 100,
             "scty": 50
         }
-    }
+    },
     {
         "name": "Nie edytuj linku kurwa xD",
         "stats": {

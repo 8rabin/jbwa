@@ -1,6 +1,6 @@
 questions = [
     {
-        "question": "Prawdziwa sekcja zaczyna się od 5000 członków ('Zdecydowanie zgadzam się'). Zaznacz 'Zgadzam' się, jeśli od 2000.",
+        "question": "Prawdziwa sekcja zaczyna się od 5000 członków. Zaznacz 'Zgadzam' się, jeśli od 2000.",
         "effect": {
             "econ": 10,
             "dipl": 0,

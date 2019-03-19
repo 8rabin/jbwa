@@ -2,7 +2,7 @@ questions = [
     {
         "question": "Prawdziwa sekcja zaczyna się od 5000 członków. Zaznacz 'Zgadzam' się, jeśli od 2000.",
         "effect": {
-            "econ": -10,
+            "econ": 10,
             "dipl": 0,
             "govt": 0,
             "scty": 0
@@ -11,7 +11,7 @@ questions = [
     {
         "question": "Kolekcjonujesz rangi na sekcjach.",
         "effect": {
-            "econ": -10,
+            "econ": 10,
             "dipl": 0,
             "govt": 0,
             "scty": 0
@@ -20,7 +20,7 @@ questions = [
     {
         "question": "Nie podoba ci się obecność znajomych (spoza trollnetu) na sekcjach.",
         "effect": {
-            "econ": -10,
+            "econ": 10,
             "dipl": -20,
             "govt": 5,
             "scty": 0
@@ -38,7 +38,7 @@ questions = [
     {
         "question": "Większość ludzi zapomniała o czterech aksjomatach.",
         "effect": {
-            "econ": -2,
+            "econ": 2,
             "dipl": -20,
             "govt": 0,
             "scty": 0
@@ -65,7 +65,7 @@ questions = [
     {
         "question": "Rozłamy sekcji to nonsens.",
         "effect": {
-            "econ": 10,
+            "econ": -10,
             "dipl": -10,
             "govt": 0,
             "scty": -10
@@ -74,7 +74,7 @@ questions = [
     {
         "question": "Ludzie najczęściej tworzą sekcje, bo chcą mieć admina.",
         "effect": {
-            "econ": -10,
+            "econ": 10,
             "dipl": 0,
             "govt": 0,
             "scty": 0
@@ -101,7 +101,7 @@ questions = [
     {
         "question": "Bycie aktywnym na grupie nie sprawia, że ktoś jest dobrym kandydatem na moderatora.",
         "effect": {
-            "econ": 10,
+            "econ": -10,
             "dipl": 0,
             "govt": 0,
             "scty": 0
@@ -128,7 +128,7 @@ questions = [
     {
         "question": "Administratorowie społeczności JBwA powinni wspólnie wprowadzić licencję na tworzenie sekcji, sankcjonując tworzenie grup bez zezwolenia.",
         "effect": {
-            "econ": -10,
+            "econ": 10,
             "dipl": -5,
             "govt": 10,
             "scty": -30
@@ -146,7 +146,7 @@ questions = [
     {
         "question": "Banowanie z powodu personalnych obiekcji to rak.",
         "effect": {
-            "econ": 5,
+            "econ": -5,
             "dipl": 0,
             "govt": -10,
             "scty": 0
@@ -155,7 +155,7 @@ questions = [
     {
         "question": "Admin ma zawsze rację.",
         "effect": {
-            "econ": -5,
+            "econ": 5,
             "dipl": 0,
             "govt": 15,
             "scty": 0
@@ -164,7 +164,7 @@ questions = [
     {
         "question": "Sekcje takie jak Filmawka i Jepiwka urosły do rangi profesjonalnych społeczności.",
         "effect": {
-            "econ": -10,
+            "econ": 10,
             "dipl": -5,
             "govt": 0,
             "scty": 0

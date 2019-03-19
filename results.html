@@ -90,9 +90,9 @@ stats"></a></div></noscript>
     }
 
     econArray = ["Serious-kurwa-biznes","Serious-Business","Aktywizm","Średnie zaangażowanie","Niskopriorytetowość","Niskie zaangażowanie","Totalna wyjebka"]
-    diplArray = ["Wszech-Internet","Otwarta grupa","Tolerancja","Balans","Zamknięta społeczność","Elitaryzm","Hermetyzm"]
+    diplArray = ["Wszech-Internet","Otwarta grupa","Tolerancja","Neutralność","Zamknięta społeczność","Elitaryzm","Hermetyzm"]
     govtArray = ["Adminoanarchizm","Adminoliberalizm","Adminoliberalizm umiarkowany","Adminopragmatyzm","Adminofaszyzm oświecony","Adminofaszyzm umiarkowany","Adminofaszyzm"]
-    sctyArray = ["Revolutionary","Very Progressive","Progressive","Neutralny","Traditional","Very Traditional","Jebawka tysiąca sekcji"]
+    sctyArray = ["Jedna jebawka, jedna sekcja","Mało sekcji, wielkie sekcje","Konsolidacja drobnych sekcji","Balans","Traditional","Very Traditional","Jebawka tysiąca sekcji"]
 
     function setLabel(val,ary) {
         if (val > 100) { return "" } else
@@ -188,15 +188,15 @@ stats"></a></div></noscript>
         ctx.fillRect(120, 304, 5.6*might-2, 72)
         ctx.fillStyle="#03a9f4"
         ctx.fillRect(682-5.6*peace, 304, 5.6*peace-2, 72)
-        ctx.fillStyle="#0099ff"
+        ctx.fillStyle="#ffeb3b"
         ctx.fillRect(120, 424, 5.6*liberty-2, 72)
-        ctx.fillStyle="#ffff33"
-        ctx.fillRect(682-5.6*authority, 424, 5.6*authority-2, 72)
         ctx.fillStyle="#cccccc"
+        ctx.fillRect(682-5.6*authority, 424, 5.6*authority-2, 72)
+        ctx.fillStyle="#8bc34a"
         ctx.fillRect(120, 544, 5.6*tradition-2, 72)
-        ctx.fillStyle="#009966"
+        ctx.fillStyle="#9c27b0"
         ctx.fillRect(682-5.6*progress, 544, 5.6*progress-2, 72)
-        ctx.fillStyle="#993399"
+        ctx.fillStyle="#222222"
         ctx.font="700 80px Montserrat"
         ctx.textAlign="left"
         ctx.fillText("8rabin", 20, 90)

@@ -142,6 +142,7 @@ questions = [
             "govt": 10,
             "scty": -30
         }
+    },
     {
         "question": "Sekcje powinny zaczynać się od 'Jak będzie w...'",
         "effect": {

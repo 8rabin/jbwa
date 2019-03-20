@@ -117,10 +117,19 @@ questions = [
         }
     },
     {
-        "question": "Sekcje z reguły powinny być ustawione na zamknięte, a nie tajne.",
+        "question": "Lepiej jest przekazywać małe sekcję w opiekę większych adminów, dysponujących znacznie większymi zasięgami, którzy są w stanie grupę intensywnie zareklamować.",
+        "effect": {
+            "econ": 5,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 5
+        }
+    },
+    {
+        "question": "Szkalowanie papieża na dobre zniknęło z dużej części trollnetu, ale teksty z Janem Pawłem II stały się nieodłącznym elementem języka jebawki.",
         "effect": {
             "econ": 0,
-            "dipl": 5,
+            "dipl": 10,
             "govt": 0,
             "scty": 0
         }
@@ -152,12 +161,30 @@ questions = [
         }
     },
     {
+        "question": "Sekcje poświęcone jednemu filmowi lub grze powinny być wchłonięte przez Filmawkę lub Graczawkę, chyba że kult jest dostatecznie silny.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 15
+        }
+    },
+    {
         "question": "Nazwy sekcji powinny zawierać w sobie półpauzę.",
         "effect": {
             "econ": 0,
             "dipl": 5,
             "govt": 0,
             "scty": 0
+        }
+    },
+    {
+        "question": "Sekcji jest zdecydowanie zbyt dużo.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -10
         }
     },
     {

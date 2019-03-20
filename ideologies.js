@@ -1,6 +1,6 @@
 ideologies = [
     {
-        "name": "Adminofaszyzm totalny",
+        "name": "Adminofaszyzm absolutny",
         "stats": {
             "econ": 100,
             "dipl": 50,
@@ -27,21 +27,30 @@ ideologies = [
         }
     },
     {
-        "name": "Adminoekspansjonizm",
+        "name": "Adminoliberalizm",
         "stats": {
             "econ": 50,
-            "dipl": 25,
-            "govt": 50,
+            "dipl": 50,
+            "govt": 35,
             "scty": 50
         }
     },
     {
-        "name": "Adminoimperializm",
+        "name": "Prawdziwy akap",
         "stats": {
-            "econ": 75,
+            "econ": 0,
             "dipl": 50,
-            "govt": 50,
-            "scty": 35
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "name": "Adminoanarchizm",
+        "stats": {
+            "econ": 50
+            "dipl": 50,
+            "govt": 10
+            "scty": 50
         }
     }
 ];

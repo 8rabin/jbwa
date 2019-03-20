@@ -45,7 +45,7 @@ questions = [
         }
     },
     {
-        "question": "Sekcje nie powinny rosnąć zbyt szybko, ponieważ przewaga nowych członków odrywa grupę od trollnetu",
+        "question": "Sekcje nie powinny zbyt mocno przyciągać nowokolegów, ponieważ ich przewaga odrywa grupę od trollnetu",
         "effect": {
             "econ": 0,
             "dipl": -20,
@@ -81,7 +81,7 @@ questions = [
         }
     },
     {
-        "question": "Ludzie powinni mieć zagwarantowane prawo do wolnego wyrażania swoich myśli, zgodnie z naturą Internetu.",
+        "question": "Ludzie powinni mieć zagwarantowane prawo do wolnego wyrażania swoich myśli, zakodowane w niepisanych zasadach Internetu.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -117,7 +117,7 @@ questions = [
         }
     },
     {
-        "question": "Lepiej jest przekazywać małe sekcję w opiekę większych adminów, dysponujących znacznie większymi zasięgami, którzy są w stanie grupę intensywnie zareklamować.",
+        "question": "Lepiej jest przekazywać małe sekcje w opiekę większych adminów, ponieważ lepiej ogarniają grupki i dysponują znacznie większymi zasięgami do reklamowania.",
         "effect": {
             "econ": 5,
             "dipl": 0,
@@ -126,7 +126,7 @@ questions = [
         }
     },
     {
-        "question": "Szkalowanie papieża na dobre zniknęło z dużej części trollnetu, ale teksty z Janem Pawłem II stały się nieodłącznym elementem języka jebawki.",
+        "question": "Szkalowanie papieża na dobre zniknęło ze sporej części trollnetu, ale teksty z Janem Pawłem II stały się nieodłącznym elementem wewnętrznego języka.",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -135,7 +135,7 @@ questions = [
         }
     },
     {
-        "question": "Administratorowie społeczności JBwA powinni wspólnie wprowadzić licencję na tworzenie sekcji, sankcjonując tworzenie grup bez zezwolenia.",
+        "question": "Administratorowie społeczności JBwA powinni wspólnym wysiłkiem ustanowić licencję na tworzenie sekcji, sankcjonując amatorów tworzących grupy bez zezwolenia.",
         "effect": {
             "econ": 10,
             "dipl": -5,
@@ -162,12 +162,12 @@ questions = [
         }
     },
     {
-        "question": "Sekcje poświęcone jednemu filmowi lub grze powinny być wchłonięte przez Filmawkę lub Graczawkę, chyba że kult jest dostatecznie silny.",
+        "question": "Sekcje poświęcone jednemu filmowi lub grze powinny być wchłonięte przez Filmawkę lub Sekcję Graczy, chyba że dany kult jest dostatecznie silny.",
         "effect": {
             "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": 15
+            "scty": -15
         }
     },
     {
@@ -219,7 +219,7 @@ questions = [
         "question": "Sekcje takie jak Filmawka i Jepiwka urosły do rangi profesjonalnych społeczności.",
         "effect": {
             "econ": 10,
-            "dipl": -5,
+            "dipl": -10,
             "govt": 0,
             "scty": 0
         }

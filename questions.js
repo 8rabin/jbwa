@@ -2,10 +2,10 @@ questions = [
     {
         "question": "Prawdziwa sekcja zaczyna się od 5000 członków. Zaznacz słabszą odpowiedź, jeśli od 2000.",
         "effect": {
-            "econ": 10,
+            "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": 0
+            "scty": 10
         }
     },
     {
@@ -20,8 +20,8 @@ questions = [
     {
         "question": "Nie podoba ci się obecność znajomych (spoza trollnetu) na sekcjach.",
         "effect": {
-            "econ": 10,
-            "dipl": -20,
+            "econ": -5,
+            "dipl": -10,
             "govt": 5,
             "scty": 0
         }
@@ -31,15 +31,15 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": 15,
+            "govt": -15,
             "scty": 0
         }
     },
     {
         "question": "Większość ludzi zapomniała o czterech aksjomatach.",
         "effect": {
-            "econ": 2,
-            "dipl": -20,
+            "econ": -2,
+            "dipl": -10,
             "govt": 0,
             "scty": 0
         }
@@ -48,7 +48,7 @@ questions = [
         "question": "Sekcje nie powinny zbyt mocno przyciągać nowokolegów, ponieważ ich przewaga odrywa grupę od trollnetu",
         "effect": {
             "econ": 0,
-            "dipl": -20,
+            "dipl": -10,
             "govt": 0,
             "scty": 0
         }
@@ -57,7 +57,7 @@ questions = [
         "question": "Na wejściu do grupy powinny być zadawane pytania takie jak 'Czy wiesz co to znaczy OP, inb4, tk?'",
         "effect": {
             "econ": 0,
-            "dipl": -20,
+            "dipl": -10,
             "govt": 0,
             "scty": 0
         }
@@ -65,10 +65,10 @@ questions = [
     {
         "question": "Rozłamy sekcji to nonsens.",
         "effect": {
-            "econ": -10,
-            "dipl": -10,
+            "econ": 5,
+            "dipl": -5,
             "govt": 0,
-            "scty": -10
+            "scty": 10
         }
     },
     {
@@ -81,11 +81,11 @@ questions = [
         }
     },
     {
-        "question": "Ludzie powinni mieć zagwarantowane prawo do wolnego wyrażania swoich myśli, zakodowane w niepisanych zasadach Internetu.",
+        "question": "Ludzie powinni mieć zagwarantowane prawo do wolnego wyrażania swoich myśli, zakodowane w zasadach Internetu.",
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -20,
+            "govt": 20,
             "scty": 0
         }
     },
@@ -94,14 +94,14 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -10,
+            "govt": 10,
             "scty": 0
         }
     },
     {
         "question": "Bycie aktywnym na grupie nie sprawia, że ktoś jest dobrym kandydatem na moderatora.",
         "effect": {
-            "econ": -10,
+            "econ": 10,
             "dipl": 0,
             "govt": 0,
             "scty": 0
@@ -112,42 +112,42 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -10,
+            "govt": 10,
             "scty": 0
         }
     },
     {
         "question": "Lepiej jest przekazywać małe sekcje w opiekę większych adminów, ponieważ lepiej ogarniają grupki i dysponują znacznie większymi zasięgami do reklamowania.",
         "effect": {
-            "econ": 5,
+            "econ": -5,
             "dipl": 0,
             "govt": 0,
-            "scty": 5
+            "scty": 10
         }
     },
     {
         "question": "Szkalowanie papieża na dobre zniknęło ze sporej części trollnetu, ale teksty z Janem Pawłem II stały się nieodłącznym elementem wewnętrznego języka.",
         "effect": {
             "econ": 0,
-            "dipl": 10,
+            "dipl": -5,
             "govt": 0,
             "scty": 0
         }
     },
     {
-        "question": "Administratorowie społeczności JBwA powinni wspólnym wysiłkiem ustanowić licencję na tworzenie sekcji, sankcjonując amatorów tworzących grupy bez zezwolenia.",
+        "question": "Administratorowie większych sekcji JBwA powinni wspólnym wysiłkiem ustanowić licencję na tworzenie sekcji, sankcjonując amatorów tworzących grupy bez zezwolenia.",
         "effect": {
-            "econ": 10,
+            "econ": -10,
             "dipl": -5,
-            "govt": 10,
-            "scty": -30
+            "govt": -10,
+            "scty": 15
         }
     },
     {
         "question": "Sekcje powinny zaczynać się od 'Jak będzie w...'",
         "effect": {
             "econ": 0,
-            "dipl": 5,
+            "dipl": -5,
             "govt": 0,
             "scty": 0
         }
@@ -157,7 +157,7 @@ questions = [
         "effect": {
             "econ": 0,
             "dipl": 0,
-            "govt": -10,
+            "govt": 10,
             "scty": 0
         }
     },
@@ -167,14 +167,14 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": -15
+            "scty": 10
         }
     },
     {
         "question": "Nazwy sekcji powinny zawierać w sobie półpauzę.",
         "effect": {
             "econ": 0,
-            "dipl": 5,
+            "dipl": -5,
             "govt": 0,
             "scty": 0
         }
@@ -185,43 +185,43 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": -10
+            "scty": 10
         }
     },
     {
         "question": "Wynoszenie contentu z sekcji poza trollnet to rak.",
         "effect": {
             "econ": 0,
-            "dipl": 10,
-            "govt": 5,
+            "dipl": -10,
+            "govt": -5,
             "scty": 0
         }
     },
     {
         "question": "Banowanie z powodu personalnych obiekcji to rak.",
         "effect": {
-            "econ": -5,
+            "econ": 5,
             "dipl": 0,
-            "govt": -10,
+            "govt": 10,
             "scty": 0
         }
     },
     {
         "question": "Admin ma zawsze rację.",
         "effect": {
-            "econ": 5,
+            "econ": -5,
             "dipl": 0,
-            "govt": 15,
+            "govt": -15,
             "scty": 0
         }
     },
     {
         "question": "Sekcje takie jak Filmawka i Jepiwka urosły do rangi profesjonalnych społeczności.",
         "effect": {
-            "econ": 10,
-            "dipl": -10,
+            "econ": -5,
+            "dipl": 10,
             "govt": 0,
-            "scty": 0
+            "scty": 2
         }
     }
 ];

@@ -1,12 +1,12 @@
 <head>
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
 <link href='style.css' rel='stylesheet' type='text/css'>
-<title>8rabin - wyniki</title>
+<title>8rabin Wyniki</title>
 <link rel="icon" type="x-icon" href="icon.png">
 <link rel="shortcut icon" type="x-icon" href="icon.png">
 <meta charset="utf-8">
 <script>
-  version = "Edycja testowa"
+  version = "Wersja beta" //Remember to update this before making changes to the test itself!
 </script>
 </head>
 <script type="application/javascript"
@@ -19,28 +19,28 @@
 
 <h1>Wyniki</h1>
 
-<h2>Oś podejścia: <span class="weight-300" id="economic-label"></span></h2>
+<h2>Economic Axis: <span class="weight-300" id="economic-label"></span></h2>
 <div class="axis">
     <img id="img-equality" src="value_images/equality.svg" height="128pt"/>
     <div class="bar equality" id="bar-equality"><div class="text-wrapper" id="equality"></div></div>
     <div class="bar wealth" id="bar-wealth"><div class="text-wrapper" id="wealth"></div></div>
     <img id="img-wealth" src="value_images/wealth.svg" height="128pt"/>
 </div>
-<h2>Oś przynależności: <span class="weight-300" id="diplomatic-label"></span></h2>
+<h2>Diplomatic Axis: <span class="weight-300" id="diplomatic-label"></span></h2>
 <div class="axis">
     <img id="img-might" src="value_images/might.svg" height="128pt"/>
     <div class="bar might" id="bar-might"><div class="text-wrapper" id="might"></div></div>
     <div class="bar peace" id="bar-peace"><div class="text-wrapper" id="peace"></div></div>
     <img id="img-peace" src="value_images/peace.svg" height="128pt"/>
 </div>
-<h2>Oś ograniczeń: <span class="weight-300" id="state-label"></span></h2>
+<h2>Civil Axis: <span class="weight-300" id="state-label"></span></h2>
 <div class="axis">
     <img id="img-liberty" src="value_images/liberty.svg" height="128pt"/>
     <div class="bar liberty" id="bar-liberty"><div class="text-wrapper" id="liberty"></div></div>
     <div class="bar authority" id="bar-authority"><div class="text-wrapper" id="authority"></div></div>
     <img id="img-authority" src="value_images/authority.svg" height="128pt"/>
 </div>
-<h2>Oś sekcjonowania: <span class="weight-300" id="society-label"></span></h2>
+<h2>Societal Axis: <span class="weight-300" id="society-label"></span></h2>
 <div class="axis">
     <img id="img-tradition" src="value_images/tradition.svg" height="128pt"/>
     <div class="bar tradition" id="bar-tradition"><div class="text-wrapper" id="tradition"></div></div>
@@ -48,9 +48,11 @@
     <img id="img-progress" src="value_images/progress.svg" height="128pt"/>
 </div>
 <h2>Najbliższe dopasowanie: <span class="weight-300" id="ideology-label"></span></h2>
+<p>Dopasowanie ideologiczne jest mało miarodajne, mniej niż na osiach.</p>
+<p>Chcesz pomóc z kalibrowaniem wyników? Wejdź na https://www.facebook.com/groups/2531079770253500/ </p>
 <hr/>
 <canvas id="banner" width=800 height=650 style="font-family:Montserrat"></canvas>
-<button class="button" onclick="location.href='index.html';" style="background-color: #2196f3;">Wróć</button> <br>
+<button class="button" onclick="location.href='index.html';" style="background-color: #2196f3;">Back</button> <br>
 <!-- Website visit statistics - no personal information is collected! -->
 <script type="text/javascript">
 var sc_project=11325211;
@@ -78,7 +80,6 @@ stats"></a></div></noscript>
            }
            return(NaN);
     }
-
     function setBarValue(name, value) {
         innerel = document.getElementById(name)
         outerel = document.getElementById("bar-" + name)
@@ -88,12 +89,10 @@ stats"></a></div></noscript>
             innerel.style.visibility = "hidden"
         }
     }
-
-    econArray = ["Totalnie wyjebane","Niskie zaangażowanie","Niskopriorytetowe","Średnie zaangażowanie","Aktywizm","Serious-Business","Serious-kurwa-biznes"]
-    diplArray = ["Wszech-Internet","Otwarta grupa","Tolerancja","Neutralność","Zamknięta społeczność","Elitaryzm","Hermetyzm"]
-    govtArray = ["Adminoanarchizm","Adminoliberalizm","Adminoliberalizm umiarkowany","Adminopragmatyzm","Adminofaszyzm oświecony","Adminofaszyzm umiarkowany","Adminofaszyzm"]
-    sctyArray = ["Sekcje ogólnotematyczne","Sekcje szerokotematyczne","Sekcje-kombinaty","Balans","Sekcje wąskotematyczne","Jebawka stu sekcji","Jebawka tysiąca sekcji"]
-
+    econArray = ["Communist","Socialist","Social","Centrist","Market","Capitalist","Laissez-Faire"]
+    diplArray = ["Cosmopolitan","Internationalist","Peaceful","Balanced","Patriotic","Nationalist","Chauvinist"]
+    govtArray = ["Anarchist","Libertarian","Liberal","Moderate","Statist","Authoritarian","Totalitarian"]
+    sctyArray = ["Revolutionary","Very Progressive","Progressive","Neutral","Traditional","Very Traditional","Reactionary"]
     function setLabel(val,ary) {
         if (val > 100) { return "" } else
         if (val > 90) { return ary[0] } else
@@ -105,7 +104,6 @@ stats"></a></div></noscript>
         if (val >= 0) { return ary[6] } else
         	{return ""}
     }
-
     equality  = getQueryVariable("e")
     peace     = getQueryVariable("d")
     liberty   = getQueryVariable("g")
@@ -114,7 +112,6 @@ stats"></a></div></noscript>
     might     = (100 - peace   ).toFixed(1)
     authority = (100 - liberty ).toFixed(1)
     tradition = (100 - progress).toFixed(1)
-
     setBarValue("equality", equality)
     setBarValue("wealth", wealth)
     setBarValue("peace", peace)
@@ -123,12 +120,10 @@ stats"></a></div></noscript>
     setBarValue("authority", authority)
     setBarValue("progress", progress)
     setBarValue("tradition", tradition)
-
     document.getElementById("economic-label").innerHTML = setLabel(equality, econArray)
     document.getElementById("diplomatic-label").innerHTML = setLabel(peace, diplArray)
     document.getElementById("state-label").innerHTML = setLabel(liberty, govtArray)
     document.getElementById("society-label").innerHTML = setLabel(progress, sctyArray)
-
     ideology = ""
     ideodist = Infinity
     for (var i = 0; i < ideologies.length; i++) {
@@ -143,7 +138,6 @@ stats"></a></div></noscript>
         }
     }
     document.getElementById("ideology-label").innerHTML = ideology
-
     function createImage(src, x, y, w, h) {
         img = new Image ()
         img.src = src
@@ -151,13 +145,11 @@ stats"></a></div></noscript>
             ctx.drawImage(img, x, y, w, h)
         }
     }
-
     window.onload = function() {
         var c = document.getElementById("banner")
         var ctx = c.getContext("2d")
         ctx.fillStyle = "#EEEEEE"
         ctx.fillRect(0,0,800,600)
-
         img = document.getElementById("img-equality")
         ctx.drawImage(img, 20, 170, 100, 100);
         img = document.getElementById("img-wealth")
@@ -174,7 +166,6 @@ stats"></a></div></noscript>
         ctx.drawImage(img, 20, 530, 100, 100)
         img = document.getElementById("img-progress")
         ctx.drawImage(img, 680, 530, 100, 100)
-
         ctx.fillStyle="#222222"
         ctx.fillRect(120, 180, 560, 80)
         ctx.fillRect(120, 300, 560, 80)
@@ -199,10 +190,9 @@ stats"></a></div></noscript>
         ctx.fillStyle="#222222"
         ctx.font="700 80px Montserrat"
         ctx.textAlign="left"
-        ctx.fillText("8rabin", 20, 90)
+        ctx.fillText("8values", 20, 90)
         ctx.font="50px Montserrat"
         ctx.fillText(ideology, 20, 140)
-
         ctx.textAlign="left"
         if (equality  > 30) {ctx.fillText(equality + "%", 130, 237.5)}
         if (might     > 30) {ctx.fillText(might + "%", 130, 357.5)}
@@ -213,9 +203,8 @@ stats"></a></div></noscript>
         if (peace     > 30) {ctx.fillText(peace + "%", 670, 357.5)}
         if (authority > 30) {ctx.fillText(authority + "%", 670, 477.5)}
         if (progress  > 30) {ctx.fillText(progress + "%", 670, 597.5)}
-
         ctx.font="300 30px Montserrat"
-        ctx.fillText("8rabin.github.io", 780, 60)
+        ctx.fillText("8values.github.io", 780, 60)
 		ctx.fillText(version, 780, 90)
         ctx.textAlign="center"
         ctx.fillText("Oś podejścia: " + document.getElementById("economic-label").innerHTML, 400, 175)

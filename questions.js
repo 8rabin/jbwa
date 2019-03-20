@@ -1,6 +1,6 @@
 questions = [
     {
-        "question": "Prawdziwa sekcja zaczyna się od 5000 członków. Zaznacz 'Zgadzam' się, jeśli od 2000.",
+        "question": "Prawdziwa sekcja zaczyna się od 5000 członków. Zaznacz słabszą odpowiedź, jeśli od 2000.",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -133,6 +133,14 @@ questions = [
             "govt": 10,
             "scty": -30
         }
+    {
+        "question": "Sekcje powinny zaczynać się od 'Jak będzie w...'",
+        "effect": {
+            "econ": 0,
+            "dipl": 5,
+            "govt": 0,
+            "scty": 0
+        }
     },
     {
         "question": "Multibany to rak.",
@@ -140,6 +148,24 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": -10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Nazwy sekcji powinny zawierać w sobie półpauzę.",
+        "effect": {
+            "econ": 0,
+            "dipl": 5,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Wynoszenie contentu z sekcji poza trollnet to rak.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 5,
             "scty": 0
         }
     },

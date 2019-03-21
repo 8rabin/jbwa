@@ -207,11 +207,92 @@ questions = [
         }
     },
     {
+        "question": "Mogę sobie założyć sekcję masturbowania się w rytm Bogurodzicy puszczonej od tyłu i chuj innym do tego.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -10
+        }
+    },
+    {
+        "question": "Sekcje poświęcone własnej osobie to przejaw nędznego pragnienia atencji.",
+        "effect": {
+            "econ": 0,
+            "dipl": -1,
+            "govt": 0,
+            "scty": -10
+        }
+    },
+    {
         "question": "Admin ma zawsze rację.",
         "effect": {
             "econ": -5,
             "dipl": 0,
             "govt": -15,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Wypromowanie własnej grupy na jebawce i odłączenie się od niej (na przykład poprzez zmianę nazwy) jest żałosnym czynem.",
+        "effect": {
+            "econ": 0,
+            "dipl": -5,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "e-papierosy",
+        "effect": {
+            "econ": 0,
+            "dipl": -1,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Duże sekcje wcale nie muszą być normickimi.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "...a normiki mówią 'normiki'.",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Nowym członkom powinno się przypominać o jebawkowych klasykach.",
+        "effect": {
+            "econ": 0,
+            "dipl": -5,
+            "govt": 0,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Regulamin grupy jest jak konstytucja.",
+        "effect": {
+            "econ": -5,
+            "dipl": 0,
+            "govt": -5,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Pisanie o jebawce w gazetach jest równie żenujące co wybory na Młodzieżowe Słowo Roku.",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": 0,
             "scty": 0
         }
     },

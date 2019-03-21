@@ -72,6 +72,24 @@ questions = [
         }
     },
     {
+        "question": "Bany prewencyjne na matce są bez sensu.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 0
+        }
+    },
+    {
+        "question": "Akceptowanie kont starszych niż x powinno zostać zniesione.",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 5,
+            "scty": 0
+        }
+    },
+    {
         "question": "Ludzie najczęściej tworzą sekcje, bo chcą mieć admina.",
         "effect": {
             "econ": 10,
@@ -126,7 +144,7 @@ questions = [
         }
     },
     {
-        "question": "Szkalowanie papieża na dobre zniknęło ze sporej części trollnetu, ale teksty z Janem Pawłem II stały się nieodłącznym elementem wewnętrznego języka.",
+        "question": "Sekcje poświęcone jednemu filmowi lub grze powinny być wchłonięte przez Filmawkę lub Sekcję Graczy, chyba że zbudowany wokół kult jest dostatecznie silny.",
         "effect": {
             "econ": 0,
             "dipl": -5,
@@ -162,7 +180,7 @@ questions = [
         }
     },
     {
-        "question": "Sekcje poświęcone jednemu filmowi lub grze powinny być wchłonięte przez Filmawkę lub Sekcję Graczy, chyba że dany kult jest dostatecznie silny.",
+        "question": "Szkalowanie papieża na dobre zniknęło ze sporej części trollnetu, ale teksty z Janem Pawłem II stały się nieodłącznym elementem wewnętrznego języka.",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -294,6 +312,15 @@ questions = [
             "dipl": -10,
             "govt": 0,
             "scty": 0
+        }
+    },
+    {
+        "question": "Sekcje o zbliżonej tematyce powinny zostać ze sobą połączone (np. taktyczna, pancerna etc. w jedną wojskową).",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 10
         }
     },
     {
